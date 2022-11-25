@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent{
+    width: 900px;
+    height: 500px;
+    background-color: rgb(245,245,245);
+    border: 1px solid #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -450px;
+}
+
+/* start welcome */
+
+.parent .welcome{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(240, 154, 160);
+    float: right;
+}
+.parent .welcome .welcome-content{
+  width: 250px;
+  padding: 30px 0;
+  height: 250px;
+  text-align: center;
+  color: #fff;
+  margin: 162px auto 0px auto;
+  /* background-color: lightpink; */
+}
+.parent .welcome .welcome-content button{
+   padding: 10px 20px ;
+   background-color: transparent;
+   border: 1px solid #fff;
+   border-radius: 30px;
+   margin-top: 7px;
+   font-size: 18px;
+   color: white;
+  }
+  .parent .welcome .welcome-content p{
+    padding: 10px;
+  }
+
+
+/* end welcome */
+
+/* begin login*/
+
+.parent .login{
+    width: 50%;
+    height:100%;
+    background-color: honeydew;
+}
+.parent .login .login-content {
+    height: 300px;
+}
+
+.parent .login .login-content .title-social {
+    color: gray;
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+
+}
+
+
+.parent .login .login-content .title-social h3{
+    color: gray;
+    padding-left: 10px;
+    padding-right : 300px;
+}
+.parent .login .login-content .title-social ul{
+    list-style: none;
+    overflow: visible;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+    margin: 0 0 0 -0.8125em;
+    padding-left: 0;
+}
+.parent .login .login-content .title-social ul li {
+    position: relative;
+    padding-left: 17px;
+}
+.parent .login .login-content .title-social ul li i:hover {
+    color: pink;
+}
+
+  /*Formulaire login*/
+.parent .login .login-content form{
+    width: 430px; 
+    height: 200px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: rgb(143, 143, 143);
+    font-size: small;
+  /*  background-color: red;*/
+ }
+ input[type=text],input[type=password]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+ }
+ input[type=submit]{
+    width: 80%;
+    background-color: pink;
+    border-radius: 30px;
+    border: rgb(240, 120, 140);
+    padding: 16px 60px;
+    color:white;
+    align-content: center;
+ }
+ .parent .login .forgot-remember{
+  display: flex;
+  padding-left: 20px;
+ }
+ .parent .login .forgot-remember .checkbox {
+    width: 50%;
+    color: rgb(240, 120, 140);
+ }
+ input[type=checkbox]{
+    accent-color: rgb(240, 120, 140);
+    border: solid white;
+ }
+ .parent .login .forgot-remember p{
+    color: gray;
+ }
+ 

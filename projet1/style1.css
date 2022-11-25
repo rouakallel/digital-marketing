@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+ width: 90%;
+ height: 10%;
+ margin-left: 50px;
+ margin-top: 20px;
+ display: flex;
+}
+/*logo*/
+.header h2{
+    padding-top : 10px;
+    padding-left: 10px;
+}
+/* Style du navbar */
+.header .navbar ul{   
+ list-style: none;
+ flex-direction: row;
+ overflow: hidden;
+ flex-direction: row;
+ display: flex;
+ flex-wrap: wrap;
+ margin: 0 0 0 -0.8125em;
+ text-align: center;
+ display: block;
+ margin-left: 500px;
+}
+li{
+    float: left;
+    padding: 14px 16px;
+}
+input[type=submit]{
+    width: 90px;
+    background-color:rgb(197, 195, 248);
+    border-radius: 30px;
+    border: rgb(182, 180, 241);
+    padding: 3px 10px;
+    color:gray;
+    align-content: center;
+    text-transform: uppercase;
+    align-items: center;
+}
+.main{
+    display: inline-block;
+}
+.main .SectionContent{
+width: 40%;
+height: 400px;
+margin:30px;
+position:relative;
+float: left;
+clear: none;
+}
+.main .SectionContent h1{
+    text-transform: uppercase;
+    color: rgb(26, 26, 54);
+    font-size: 55px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 30px;
+}
+.main .SectionContent h1 span{
+    color: rgb(252, 169, 12);
+    font-weight: lighter;
+    font-size: 25px;
+}
+.main .SectionContent p {
+    padding: 30px;
+    text-align: justify;
+    color: gray;
+}
+input[type=button]{
+    width: 20%;
+    background-color:rgb(197, 195, 248);
+    border-radius: 30px;
+    border: rgb(182, 180, 241);
+    padding: 16px 10px;
+    color:white;
+    align-content: center;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.main .Image{
+    width:80%;
+    margin:30px;
+}
+.main .Image img{
+ width: 40%;
+ height: 40%;
+ position:relative;
+ float: right;
+}
+
